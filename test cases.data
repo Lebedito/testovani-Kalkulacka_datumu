@@ -1,0 +1,58 @@
+testování funkce výpočet datumu následujícího dne
+
+
+pozitivní testy
+   in: 1.1.2020; out: 2.1.2020
+   in: 31.1.2020; out: 1.2.2020
+   in: 29.2.2020; out: 1.3.2020
+   in: 31.3.2020; out: 1.4.2020
+   in: 30.4.2020; out: 1.5.2020
+   in: 31.5.2020; out: 1.6.2020
+   in: 30.6.2020; out: 1.7.2020
+   in: 31.7.2020; out: 1.8.2020
+   in: 31.8.2020; out: 1.9.2020
+   in: 30.9.2020; out: 1.10.2020
+   in: 31.10.2020; out: 1.11.2020
+   in: 30.11.2020; out: 1.12.2020
+   in: 31.12.2020; out: 1.1.2021
+   in: 28.2.2021; out: 1.3.2021
+   in: 28.2.1996; out: 29.2.1996
+   in: 28.2.1999; out: 1.3.1999
+   in: 28.2.2000; out: 29.2.2000
+
+negativní testy
+   in: 1.-1.1900; out: chybová hláška
+   in: 1.0.1900; out: chybová hláška
+   in: 1.13.1900; out: chybová hláška
+   in: 1.@.1900; out: chybová hláška
+   in: 1._.1900; out: chybová hláška
+   in: 1.3,14.1900; out: chybová hláška
+   in: -1.1.1900; out: chybová hláška
+   in: 0.1.1900; out: chybová hláška
+   in: 32.1.1900; out: chybová hláška
+   in: 32.3.1900; out: chybová hláška
+   in: 31.4.1900; out: chybová hláška
+   in: 32.5.1900; out: chybová hláška
+   in: 31.6.1900; out: chybová hláška
+   in: 32.7.1900; out: chybová hláška
+   in: 32.8.1900; out: chybová hláška
+   in: 31.9.1900; out: chybová hláška
+   in: 32.10.1900; out: chybová hláška
+   in: 31.11.1900; out: chybová hláška
+   in: 32.12.1900; out: chybová hláška
+   in: @.12.1900; out: chybová hláška
+   in: _.12.1900; out: chybová hláška
+   in: 3,14.12.1900; out: chybová hláška
+   in: 1.12.-1; out: chybová hláška
+   in: 1.12.0; out: chybová hláška
+   in: 1.12.@; out: chybová hláška
+   in: 1.12._; out: chybová hláška
+   in: 1.12.3,14; out: chybová hláška
+   
+   
+   
+   
+   
+   
+   
+   
