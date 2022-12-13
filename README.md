@@ -3,6 +3,7 @@ testování https://www.rapidtables.org/sk/calc/time/date-calculator.html
 
 testování funkce výpočet datumu následujícího dne
 
+![třídy ekvivalence](https://user-images.githubusercontent.com/117156625/207355839-97027f80-7ba2-46c3-878d-f0065f821f82.png)
 
 ![TR_přehled01](https://user-images.githubusercontent.com/117156625/203071215-0ce82f47-6a53-48a7-ba80-87b99e582d9d.png)
 
